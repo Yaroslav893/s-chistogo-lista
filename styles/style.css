@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: "Inter", serif;
+  font-family: "Inter";
   font-weight: 400;
 }
 
@@ -71,7 +71,7 @@ blockquote {
 .cover__title {
   color: #fff;
   font-size: 72px;
-  font-family: "EB Garamond", sans-serif;
+  font-family: "EB Garamond";
   font-weight: 400;
 }
 
@@ -115,14 +115,14 @@ blockquote {
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond", sans-serif;
+  font-family: "EB Garamond";
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
 }
 
 .content-section__introduction {
-  font-family: "inter", serif;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -130,7 +130,7 @@ blockquote {
 
 .content-section__list {
   padding-left: 16px;
-  font-family: "inter", serif;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 21.6px;
@@ -141,7 +141,7 @@ blockquote {
 
 .content-section__list-accent {
   font-weight: 700;
-  font-family: "inter", serif;
+  font-family: "Inter";
 }
 .how-to {
   display: flex;
@@ -195,14 +195,14 @@ blockquote {
 }
 
 .card__title {
-  font-family: "EB Garamond", sans-serif;
+  font-family: "EB Garamond";
   font-weight: 500;
   font-size: 22px;
   line-height: 135%;
 }
 
 .card__text {
-  font-family: "Inter", serif;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 21.6px;
@@ -217,7 +217,7 @@ blockquote {
 }
 
 .footer__copy {
-  font-family: "Inter", serif;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
@@ -226,7 +226,7 @@ blockquote {
 .footer__links {
   display: flex;
   gap: 16px;
-  font-family: "Inter", serif;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 125%;
