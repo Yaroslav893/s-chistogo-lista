@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -39,10 +39,12 @@ blockquote {
   display: flex;
   justify-content: space-between;
 }
+
 .header__menu {
   display: flex;
   justify-content: flex-end;
 }
+
 .header__menu-list {
   display: flex;
   flex-direction: column;
@@ -61,18 +63,19 @@ blockquote {
 
 .cover {
   padding: 7px 24px 5px 20px;
-  background-image: url(/images/cover.svg);
+  background-image: url(../images/cover.svg);
   background-size: 95% auto;
   min-height: 198px;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right bottom;
 }
 
 .cover__title {
   color: #fff;
   font-size: 72px;
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", Arial, sans-serif;
   font-weight: 400;
+  line-height: 100%;
 }
 
 .accent-span {
@@ -85,10 +88,10 @@ blockquote {
 
 .text-right {
   text-align: right;
-  /* padding: 0px 24px 5px; */
 }
+
 .intro {
-  padding: 0px 20px 38px 20px;
+  padding: 30px 20px 38px 20px;
 }
 
 .intro__heading {
@@ -115,14 +118,14 @@ blockquote {
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", Arial, sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
 }
 
 .content-section__introduction {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -130,7 +133,7 @@ blockquote {
 
 .content-section__list {
   padding-left: 16px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21.6px;
@@ -141,8 +144,9 @@ blockquote {
 
 .content-section__list-accent {
   font-weight: 700;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
 }
+
 .how-to {
   display: flex;
   flex-direction: column;
@@ -195,14 +199,14 @@ blockquote {
 }
 
 .card__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", Arial, sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 135%;
 }
 
 .card__text {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21.6px;
@@ -217,7 +221,7 @@ blockquote {
 }
 
 .footer__copy {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
@@ -226,8 +230,14 @@ blockquote {
 .footer__links {
   display: flex;
   gap: 16px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 125%;
+  list-style: none;
+}
+
+.footer__links-item {
+  text-decoration: none;
+  color: #f5f5f5;
 }
